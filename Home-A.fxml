@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="470.0" prefWidth="800.0" style="-fx-background-color: #f1f2f5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="super_students.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="287.0" fitWidth="278.0" layoutX="345.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/PHOTO-2021-04-05-22-49-15-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="20.0" layoutX="408.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/11816919591556274018-128.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="17.0" fitWidth="17.0" layoutX="408.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/6781620541530103308-128.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="433.0" layoutY="400.0" text="+966-558-003-900">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="437.0" layoutY="422.0" text="s-students@edu.com">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="4.0" layoutY="98.0" prefHeight="383.0" prefWidth="200.0" style="-fx-background-color: #0e2e72 #0e2e72; -fx-background-radius: 0 30 30 0;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="-6.0" AnchorPane.topAnchor="88.0">
+         <children>
+            <VBox layoutX="7.0" layoutY="130.0" prefHeight="229.0" prefWidth="197.0" style="-fx-background-color: #0e2e72 #0e2e72; -fx-background-radius: 30 0 0 0;" AnchorPane.bottomAnchor="24.0" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="130.0">
+               <children>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#Home" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: ffffff; -fx-background-radius: 0 15 15 0;" text="Home" textFill="#0e2e72">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#ads" prefHeight="46.0" prefWidth="263.0" style="-fx-background-color: #0e2e72#0e2e72; -fx-background-radius: 0 15 15 0;" styleClass="choose_menu" stylesheets="@../NetBeansProjects/RProject/src/main/background.css" text="Advertisement" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#teachAttendance" prefHeight="46.0" prefWidth="263.0" style="-fx-background-color: #0e2e72#0e2e72; -fx-background-radius: 0 15 15 0;" styleClass="menuBtn" stylesheets="@../NetBeansProjects/RProject/src/main/background.css" text="Attendance" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#schudules" prefHeight="46.0" prefWidth="263.0" style="-fx-background-color: #0e2e72#0e2e72; -fx-background-radius: 0 15 15 0;" styleClass="menuBtn" stylesheets="@../NetBeansProjects/RProject/src/main/background.css" text="Schedules" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#acadmicRecords" prefHeight="46.0" prefWidth="263.0" style="-fx-background-color: #0e2e72#0e2e72; -fx-background-radius: 0 15 15 0;" styleClass="menuBtn" stylesheets="@../NetBeansProjects/RProject/src/main/background.css" text="Academic Records" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="10.0" mnemonicParsing="false" onAction="#community" prefHeight="46.0" prefWidth="263.0" style="-fx-background-color: #0e2e72#0e2e72; -fx-background-radius: 0 15 15 0;" styleClass="menuBtn" stylesheets="@../NetBeansProjects/RProject/src/main/background.css" text="School Community" textFill="WHITE">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets left="15.0" />
+                     </padding>
+                     <font>
+                        <Font name="Gill Sans" size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Button alignment="CENTER" contentDisplay="CENTER" graphicTextGap="10.0" layoutX="29.0" layoutY="78.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="131.0" style="-fx-background-color: #0e2e72;" text="Martin Jack" textFill="WHITE">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+               <font>
+                  <Font name="Gill Sans" size="23.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER" layoutX="73.0" layoutY="25.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="24.0" style="-fx-background-radius: 25; -fx-background-color: #ffffff;" styleClass="SRBtn" stylesheets="@../NetBeansProjects/RProject/src/main/background.css">
+               <graphic>
+                  <ImageView fitHeight="46.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@/login.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="158.0" fitWidth="165.0" layoutX="6.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@/PHOTO-2021-04-05-22-49-15-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="383.0" layoutY="268.0" text="Welcome to Super Students " textFill="#0e2e72">
+         <font>
+            <Font name="Avenir Next Condensed Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="293.0" layoutY="309.0" text="The Mission of SuperStudents is to empower our children to achieve ">
+         <font>
+            <Font name="Avenir Next Condensed Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="445.0" layoutY="368.0" text="Contact us" textFill="#0e2e72">
+         <font>
+            <Font name="Avenir Next Condensed Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="252.0" layoutY="332.0" text="their greatest potential both as students and as members of their communities.">
+         <font>
+            <Font name="Avenir Next Condensed Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
